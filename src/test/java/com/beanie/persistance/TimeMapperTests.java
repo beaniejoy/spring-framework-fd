@@ -23,8 +23,15 @@ public class TimeMapperTests {
 	
 	@Test
 	public void testGetTime() {
+		log.info("getTime");
 		log.info(timeMapper.getClass().getName());
 		log.info(timeMapper.getTime());
+	}
+	
+	@Test
+	public void testGetTime2() {
+		log.info("getTime2");
+		log.info(timeMapper.getTime2());
 	}
 	
 
